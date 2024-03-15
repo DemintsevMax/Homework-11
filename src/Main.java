@@ -27,7 +27,7 @@ public class Main {
         }
     }
 
-    public static void distanceСalculation(int deliveryDistance) {
+    public static void calculateDeliveryTime (int deliveryDistance) {
         if (deliveryDistance <= 20) {
             System.out.println("Потребуется одни сутки");
         } else if (deliveryDistance > 20 && deliveryDistance < 60) {
@@ -49,7 +49,7 @@ public class Main {
         choiceSystem(0, currentYear);
 
         System.out.println("Task 3");
-        distanceСalculation(75);
+        calculateDeliveryTime(75);
 
 
     }
